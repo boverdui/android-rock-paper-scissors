@@ -1,5 +1,6 @@
 package com.example.alex.rockpaperscissors;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -54,8 +55,11 @@ public class MainActivity extends AppCompatActivity {
             game.resetScores();
             scores.setText("Player: " + game.getPlayerScore() + "   Computer: " + game.getComputerScore());
         }
+        if (item.getItemId() == R.id.action_rules) {
+            Intent intent = new Intent(this, RulesActivity.class);
+            startActivity(intent);
+        }
         return true;
     }
-
 
 }
