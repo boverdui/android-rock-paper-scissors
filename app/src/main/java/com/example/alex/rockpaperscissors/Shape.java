@@ -9,7 +9,9 @@ import java.util.Random;
 public enum Shape {
     ROCK,
     PAPER,
-    SCISSORS;
+    SCISSORS,
+    LIZARD,
+    SPOCK;
 
     public static Shape getRandomShape() {
         Random random = new Random();

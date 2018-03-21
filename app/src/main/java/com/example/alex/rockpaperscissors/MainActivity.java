@@ -49,6 +49,18 @@ public class MainActivity extends AppCompatActivity {
         scores.setText("Player: " + game.getPlayerScore() + "   Computer: " + game.getComputerScore());
     }
 
+    public void onLizardButtonClicked(View button) {
+        String result = game.play(Shape.LIZARD, Shape.getRandomShape());
+        resultText.setText(result);
+        scores.setText("Player: " + game.getPlayerScore() + "   Computer: " + game.getComputerScore());
+    }
+
+    public void onSpockButtonClicked(View button) {
+        String result = game.play(Shape.SPOCK, Shape.getRandomShape());
+        resultText.setText(result);
+        scores.setText("Player: " + game.getPlayerScore() + "   Computer: " + game.getComputerScore());
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.action_reset_scores) {
