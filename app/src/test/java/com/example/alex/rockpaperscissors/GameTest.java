@@ -32,4 +32,26 @@ public class GameTest {
         assertEquals("It's a draw!\nThe computer played PAPER", game.play(Shape.PAPER, Shape.PAPER));
     }
 
+    @Test
+    public void playerScoreStartsAtZero() {
+        assertEquals(0, game.getPlayerScore());
+    }
+
+    @Test
+    public void  computerScoreStartsAtZero() {
+        assertEquals(0, game.getComputerScore());
+    }
+
+    @Test
+    public void canAddToPlayerScore() {
+        game.play(Shape.ROCK, Shape.SCISSORS);
+        assertEquals(1, game.getPlayerScore());
+    }
+
+    @Test
+    public void canAddToComputerScore() {
+        game.play(Shape.ROCK, Shape.PAPER);
+        assertEquals(1, game.getComputerScore());
+    }
+
 }

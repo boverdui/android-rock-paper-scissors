@@ -4,4 +4,6 @@
     <string name="rock_text">ROCK</string>
     <string name="paper_text">PAPER</string>
     <string name="scissors_text">SCISSORS</string>
+    <string name="rules_menu_text">Rules</string>
+    <string name="reset_scores_menu_text">Reset Scores</string>
 </resources>
