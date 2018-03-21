@@ -64,4 +64,5 @@ public class Game {
     public int getComputerScore() {
         return computerScore;
     }
+
 }

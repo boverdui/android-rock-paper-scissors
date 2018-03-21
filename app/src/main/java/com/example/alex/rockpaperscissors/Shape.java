@@ -19,12 +19,13 @@ public enum Shape {
         this.id = id;
     }
 
+    public int getId() {
+        return this.id;
+    }
+
     public static Shape getRandomShape() {
         Random random = new Random();
         return values()[random.nextInt(values().length)];
     }
 
-    public int getId() {
-        return this.id;
-    }
 }

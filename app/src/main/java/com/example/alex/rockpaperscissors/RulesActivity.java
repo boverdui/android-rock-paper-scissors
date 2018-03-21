@@ -10,4 +10,5 @@ public class RulesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rules);
     }
+
 }
