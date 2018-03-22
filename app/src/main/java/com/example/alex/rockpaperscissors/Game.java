@@ -35,12 +35,12 @@ public class Game {
 
         if (combinations.get(playerHand).contains(computerHand) ) {
             addToPlayerScore();
-            return "You win!\nThe computer played " + computerHand;
+            return "You win!\n\nThe computer played " + computerHand;
         } else if (combinations.get(computerHand).contains(playerHand)) {
             addToComputerScore();
-            return "You lose!\nThe computer played " + computerHand;
+            return "You lose!\n\nThe computer played " + computerHand;
         } else {
-            return "It's a draw!\nThe computer played " + computerHand;
+            return "It's a draw!\n\nThe computer played " + computerHand;
         }
     }
     
