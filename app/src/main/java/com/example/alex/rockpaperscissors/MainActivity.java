@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.action_reset_scores) {
             game.resetScores();
             setScores();
+            resultText.setText("");
         }
         if (item.getItemId() == R.id.action_rules) {
             Intent intent = new Intent(this, RulesActivity.class);
