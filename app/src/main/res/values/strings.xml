@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rock Paper Scissors</string>
+    <string name="app_name">Rock Paper Scissors etc.</string>
     <string name="instructions">Choose a shape!</string>
     <string name="rock_text">ROCK</string>
     <string name="paper_text">PAPER</string>
