@@ -27,20 +27,26 @@ public class Game {
 
         HashMap<Shape, List<Shape>> combinations = new HashMap<>();
 
+        combinations.put(Shape.ROCK, Arrays.asList(Shape.SCISSORS, Shape.LIZARD));
         combinations.put(Shape.PAPER, Arrays.asList(Shape.ROCK, Shape.SPOCK));
         combinations.put(Shape.SCISSORS, Arrays.asList(Shape.PAPER, Shape.LIZARD));
-        combinations.put(Shape.ROCK, Arrays.asList(Shape.SCISSORS, Shape.LIZARD));
         combinations.put(Shape.LIZARD, Arrays.asList(Shape.PAPER, Shape.SPOCK));
         combinations.put(Shape.SPOCK, Arrays.asList(Shape.SCISSORS, Shape.ROCK));
 
         if (combinations.get(playerHand).contains(computerHand) ) {
             addToPlayerScore();
-            return "You win!\n\nThe computer played " + computerHand;
+            return "You played " + playerHand +
+                    "\nThe computer played " + computerHand +
+                    "\n\nYou WIN!";
         } else if (combinations.get(computerHand).contains(playerHand)) {
             addToComputerScore();
-            return "You lose!\n\nThe computer played " + computerHand;
+            return "You played " + playerHand +
+                    "\nThe computer played " + computerHand +
+                    "\n\nYou LOSE!";
         } else {
-            return "It's a draw!\n\nThe computer played " + computerHand;
+            return "You played " + playerHand +
+                    "\nThe computer played " + computerHand +
+                    "\n\nIt's a DRAW!";
         }
     }
     
