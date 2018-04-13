@@ -19,3 +19,7 @@ Feel free to practice styling etc.
 * Add another activity which acts as a welcome page and explains the rules before the user picks their move.
 * Adapt your site to play Rock, Paper, Scissors, Lizard, Spock! (see: http://www.samkass.com/theories/RPSSL.html )
 * Keep a score of the number of wins
+
+### Screenshots of the Finished Product:
+
+![Alt text](screenshots/rock_paper_scissors.jpg?raw=true)
