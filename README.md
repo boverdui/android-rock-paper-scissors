@@ -20,7 +20,7 @@ Feel free to practice styling etc.
 * Adapt your site to play Rock, Paper, Scissors, Lizard, Spock! (see: http://www.samkass.com/theories/RPSSL.html )
 * Keep a score of the number of wins
 
-### Screenshots of the finished product:
+## Screenshots of the finished product:
 
 * Pair programmed with Alexander Fedenczuk (AFed29).
 
