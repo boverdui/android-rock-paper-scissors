@@ -22,6 +22,6 @@ Feel free to practice styling etc.
 
 ## Screenshots of the finished product:
 
-* Pair programmed with Alexander Fedenczuk (AFed29).
+* Pair programmed with Alexander Fedenczuk (AFed29)
 
 ![Alt text](screenshots/rock_paper_scissors.jpg?raw=true)
