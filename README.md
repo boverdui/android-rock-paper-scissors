@@ -6,7 +6,7 @@ They will enter their chosen move by clicking a button, the computer will random
 
 The player will see the both the computer's choice, and the result of the game on the screen.
 
-##### You will need:
+### You will need:
 
 * A button for each selection
 * A (tested) Java class for the game logic
@@ -17,10 +17,10 @@ Feel free to practice styling etc.
 ### Extensions:
 
 * Add another activity which acts as a welcome page and explains the rules before the user picks their move.
-* Adapt your site to play Rock, Paper, Scissors, Lizard, Spock! (see: http://www.samkass.com/theories/RPSSL.html )
+* Adapt your site to play Rock, Paper, Scissors, Lizard, Spock! (see: http://www.samkass.com/theories/RPSSL.html)
 * Keep a score of the number of wins
 
-## Screenshots of the finished product:
+## Screenshots of the finished product
 
 * Pair programmed with Alexander Fedenczuk (AFed29)
 
